@@ -1,0 +1,17 @@
+{
+  "name": "swag-training/authors-store-api",
+  "description": "Authors Store API",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\AuthorsStoreApi\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\AuthorsStoreApi\\SwagTrainingAuthorsStoreApi",
+    "label": {
+      "en-GB": "Authors Store API"
+    }
+  }
+}
